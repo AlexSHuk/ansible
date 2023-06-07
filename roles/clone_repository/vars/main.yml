@@ -1,0 +1,4 @@
+---
+git_repository: https://github.com/AlexSHuk/dockerfiles.git #link_to_repositoryes
+repository_destination: /home/ubuntu/docker-container #path_to_directory_on_the_server_where_to_clone_the_repository
+git_version: main #branch

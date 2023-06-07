@@ -1,0 +1,11 @@
+docker_images:
+  - name: nginx
+    port: 81
+  - name: apache
+    port: 82
+  - name: server
+    port: 83
+#container_ports:
+#  - { container: "nginx", port: 80 }
+#  - { container: "apache", port: 81 }
+#  - { container: "servers", port: 82 }
