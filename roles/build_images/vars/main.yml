@@ -1,0 +1,6 @@
+docker_directory_path: "/home/ubuntu/docker-container"
+docker_directories:
+  - "nginx"
+  - "apache"
+  - "server"
+

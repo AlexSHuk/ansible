@@ -1,0 +1,7 @@
+---
+- name: Clone repository from GitHub
+  git:
+    repo: "{{ git_repository }}"
+    dest: "{{ repository_destination }}"
+    version: "{{ git_version }}"
+  become: true

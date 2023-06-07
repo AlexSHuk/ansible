@@ -1,0 +1,11 @@
+ - name: Building Docker images
+   docker_image:
+     name: "{{ item }}_image"
+     source: build
+     build: 
+       path: "{{ docker_directory_path }}/{{ item }}"
+     state: present
+   loop: "{{ docker_directories }}"
+   loop_control:
+     loop_var: item
+
