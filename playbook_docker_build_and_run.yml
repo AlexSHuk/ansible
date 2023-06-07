@@ -1,0 +1,9 @@
+- name: Building Docker-images and running containers
+  hosts: all
+  gather_facts: false
+  become: yes
+
+  roles:
+    - clone_repository
+    - build_images
+    - run_containers
