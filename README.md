@@ -29,7 +29,7 @@ This role runs Docker containers using the built images.
 
 ## Usage  
 1. Clone the repository to your local machine:  
-git clone `https://github.com/AlexSHuk/ansible.git`  
+`git clone https://github.com/AlexSHuk/ansible.git`  
 
 2. Update the inventory file (`hosts.txt`) with your remote server's information.
 For example , hosts.txt can be contain this:  
@@ -44,11 +44,11 @@ For example , all.yml can be contain this :
 `---`  
 `ansible_user                  : $user_name`  
 `ansible_ssh_private_key_file  : $path_to_private_key`    
+
 4. Run the desired playbook using the `ansible-playbook` command.
 
 
 ###!PLEASE NOTE!
-
 You must have ansible installed on the control host and docker module. If not, use the commands below (for Ubuntu) 
 
 `sudo apt update`  
